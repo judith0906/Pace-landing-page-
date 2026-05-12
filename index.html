@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Pace: tu compañero de hábitos. Comparte progreso con tu círculo cercano sin presión ni comparaciones." />
+
+    <!-- Open Graph (rellena cuando tengas dominio y assets definitivos) -->
+    <meta property="og:title" content="Pace — Tu compañero de hábitos" />
+    <meta property="og:description" content="Crea hábitos con constancia, comparte con los tuyos y mantén tu privacidad." />
+    <meta property="og:image" content="./assets/og-image.png" />
+    <meta property="og:type" content="website" />
+
+    <title>Pace — Tu compañero de hábitos</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Ir al inicio">
+          <!-- Reemplaza por tu logo real -->
+          <img class="brand-logo" src="./assets/logo.png" alt="Pace" onerror="this.style.display='none'" />
+          <span class="brand-name">Pace</span>
+        </a>
+
+        <nav class="nav" aria-label="Navegación principal" data-nav>
+          <a class="nav-link" href="#como-funciona">Cómo funciona</a>
+          <a class="nav-link" href="#privacidad">Privacidad</a>
+          <a class="nav-link" href="#features">Características</a>
+          <a class="nav-link" href="#faq">FAQ</a>
+          <a class="nav-link nav-cta" href="#descargar">Inicio</a>
+        </nav>
+
+        <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="top" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="badge">Tu compañero de hábitos</p>
+
+            <h1 class="hero-title">
+              Constancia sin presión.
+              <span class="hero-title-accent">Comparte solo con quien tú elijas.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Pace te acompaña a construir hábitos diarios de forma entretenida, amigable e innovadora,
+              combinando disciplina con lo mejor de lo social… sin comparaciones ni juicios.
+            </p>
+
+            <div class="hero-actions" id="descargar">
+              <!-- Cambia los href por tus URLs reales -->
+              <a class="btn btn-primary" href="#" data-store="play" aria-label="Descargar en Google Play">
+                Descargar (Android)
+              </a>
+              <a class="btn btn-ghost" href="#como-funciona">Ver cómo funciona</a>
+            </div>
+
+            <div class="trust-row" aria-label="Beneficios clave">
+              <div class="trust-item">
+                <span class="trust-kpi">Privado</span>
+                <span class="trust-label">Círculos cerrados</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-kpi">Simple</span>
+                <span class="trust-label">Hábitos diarios</span>
+              </div>
+              <div class="trust-item">
+                <span class="trust-kpi">Humano</span>
+                <span class="trust-label">Acompañamiento</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-media" aria-label="Vista previa de la app">
+            <!-- Reemplaza por tus capturas reales -->
+            <div class="phone-mock">
+              <div class="phone-screen">
+                <img
+                  class="phone-shot"
+                  src="./assets/screen-1.png"
+                  alt="Captura de Pace: hábitos del día"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="hero-card hero-card--floating" aria-hidden="true">
+              <p class="hero-card-title">“Paso a paso, vas muy bien.”</p>
+              <p class="hero-card-subtitle">Mensajes de ánimo dentro de tu círculo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROBLEMA / INSIGHT (tu texto) -->
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">El problema no es la falta de apps</h2>
+            <p class="section-subtitle">
+              Muchas apps de hábitos se apoyan en la motivación, el sacrificio o la comparación. Y eso agota.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card">
+              <h3 class="card-title">Comparación constante</h3>
+              <p class="card-text">
+                Ver el progreso de otros puede desmotivar y hacer que abandones.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Exposición innecesaria</h3>
+              <p class="card-text">
+                Compartimos con demasiada gente (trabajo, instituto, conocidos…) y no siempre recibimos apoyo.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Falta de compañía real</h3>
+              <p class="card-text">
+                Lo que más ayuda es sentirse acompañado durante el proceso, sin sentirse juzgado.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CÓMO FUNCIONA -->
+      <section id="como-funciona" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Cómo funciona Pace</h2>
+            <p class="section-subtitle">
+              Un ritmo diario sencillo, con lo social en su justa medida.
+            </p>
+          </div>
+
+          <ol class="steps">
+            <li class="step">
+              <div class="step-num" aria-hidden="true">1</div>
+              <div class="step-body">
+                <h3 class="step-title">Elige tus hábitos</h3>
+                <p class="step-text">
+                  Selecciona hábitos (físicos, mentales, estudio, rutina, bienestar…) o crea los tuyos.
+                </p>
+              </div>
+            </li>
+
+            <li class="step">
+              <div class="step-num" aria-hidden="true">2</div>
+              <div class="step-body">
+                <h3 class="step-title">Registra tu día</h3>
+                <p class="step-text">
+                  Marca el progreso de hoy sin complicaciones. Constancia > perfección.
+                </p>
+              </div>
+            </li>
+
+            <li class="step">
+              <div class="step-num" aria-hidden="true">3</div>
+              <div class="step-body">
+                <h3 class="step-title">Comparte con tu círculo</h3>
+                <p class="step-text">
+                  Solo con quienes tú decidas. Acompañamiento real, sin exposición pública.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- PRIVACIDAD / DIFERENCIAL -->
+      <section id="privacidad" class="section">
+        <div class="container split">
+          <div>
+            <h2 class="section-title">Lo social, pero con privacidad</h2>
+            <p class="section-subtitle">
+              Inspirada en lo mejor de Instagram/WhatsApp/BeReal… sin el lado tóxico de “publicarlo para todo el mundo”.
+            </p>
+
+            <ul class="list-check">
+              <li>Comparte avances solo con tu gente (círculos cerrados).</li>
+              <li>Menos juicio, más apoyo.</li>
+              <li>Tu proceso es tuyo: tú eliges qué mostrar y a quién.</li>
+            </ul>
+
+            <div class="note">
+              <p><strong>Pace está diseñada para mantener hábitos con constancia sin presión social.</strong></p>
+            </div>
+          </div>
+
+          <div class="media-stack">
+            <img class="media-img" src="./assets/screen-2.png" alt="Captura de Pace: círculos" loading="lazy" />
+            <img class="media-img" src="./assets/screen-3.png" alt="Captura de Pace: historial" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="features" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Características</h2>
+            <p class="section-subtitle">Pensada para acompañarte cada día, sin complicarte.</p>
+          </div>
+
+          <div class="grid-3">
+            <article class="card">
+              <h3 class="card-title">Hábitos diarios</h3>
+              <p class="card-text">Vista del día, progreso rápido y sensación de avance.</p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Historial</h3>
+              <p class="card-text">Revisa tu constancia y detecta patrones con el tiempo.</p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Círculos</h3>
+              <p class="card-text">Comparte con tu gente: apoyo real sin exposición pública.</p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Recordatorios</h3>
+              <p class="card-text">Notificaciones para registrar tu día cuando a ti te encaje.</p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Ritmo personal</h3>
+              <p class="card-text">Define días activos y descansa sin culpa cuando toque.</p>
+            </article>
+
+            <article class="card">
+              <h3 class="card-title">Modo oscuro</h3>
+              <p class="card-text">Una experiencia cómoda de día o de noche.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <div class="container cta-inner">
+          <div class="cta-copy">
+            <h2 class="cta-title">Empieza tu ritmo con Pace</h2>
+            <p class="cta-subtitle">Construye hábitos con constancia y comparte solo con quien suma.</p>
+          </div>
+
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="#" data-store="play">Descargar (Android)</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Preguntas frecuentes</h2>
+            <p class="section-subtitle">Lo básico antes de empezar.</p>
+          </div>
+
+          <div class="faq" data-faq>
+            <details class="faq-item">
+              <summary class="faq-q">¿Pace es una red social?</summary>
+              <div class="faq-a">
+                <p>
+                  No es una red social pública. Es una app de hábitos con componentes sociales privados (círculos cerrados)
+                  para que te sientas acompañado sin exposición.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-q">¿Con quién comparto mis logros?</summary>
+              <div class="faq-a">
+                <p>
+                  Con tu círculo: personas que tú eliges. La idea es reducir presión y maximizar apoyo.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-q">¿Está pensada para cualquier edad?</summary>
+              <div class="faq-a">
+                <p>
+                  Sí: desde adolescentes hasta adultos. El enfoque es simple: constancia diaria y compañía.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-q">¿Dónde descargo la app?</summary>
+              <div class="faq-a">
+                <p>
+                  Proximamente descargable en Google Play.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">Pace</span>
+          <p class="footer-text">Tu compañero de hábitos.</p>
+        </div>
+
+        <div class="footer-links">
+          <!-- Cambia a tus URLs -->
+          <a href="./privacy.html" rel="noopener">Política de privacidad</a>
+          <a href="./terms.html" rel="noopener">Términos</a>
+          <a href="mailto:soporte.novikon@gmail.com">soporte.novikon@gmail.com</a>
+        </div>
+
+        <p class="footer-legal">© <span data-year></span> Pace. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- JS separado -->
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>
